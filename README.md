@@ -58,22 +58,27 @@ solblade init
 
 ## Connect to your AI
 
-Solblade works with any MCP-compatible client. Pick your setup below.
+Solblade works with any MCP-compatible client. Pick your editor below.
 
-### Claude Code (CLI)
+> **Tip:** Replace `"*"` with specific tool groups to restrict access — `"read"` for read-only, `"read,scan,cleanup"` for read + rent reclaim.
+
+<details>
+<summary><strong>Claude Code</strong></summary>
 
 ```bash
 claude mcp add solblade -- bunx solblade mcp serve --allow "*"
 ```
 
-### Claude Desktop
+That's it. One command.
+
+</details>
+
+<details>
+<summary><strong>Claude Desktop</strong></summary>
 
 Add to your config file:
-
-| OS | Path |
-|----|------|
-| macOS | `~/Library/Application Support/Claude/claude_desktop_config.json` |
-| Windows | `%APPDATA%\Claude\claude_desktop_config.json` |
+- **macOS:** `~/Library/Application Support/Claude/claude_desktop_config.json`
+- **Windows:** `%APPDATA%\Claude\claude_desktop_config.json`
 
 ```json
 {
@@ -86,9 +91,14 @@ Add to your config file:
 }
 ```
 
-### Cursor
+Restart Claude Desktop after saving.
 
-Open **Settings > MCP Servers > Add Server**, or add to `.cursor/mcp.json` in your project:
+</details>
+
+<details>
+<summary><strong>Cursor</strong></summary>
+
+Add to `.cursor/mcp.json` in your project root, or go to **Settings > MCP Servers > Add Server**:
 
 ```json
 {
@@ -101,7 +111,10 @@ Open **Settings > MCP Servers > Add Server**, or add to `.cursor/mcp.json` in yo
 }
 ```
 
-### VS Code / Copilot
+</details>
+
+<details>
+<summary><strong>VS Code / GitHub Copilot</strong></summary>
 
 Add to `.vscode/mcp.json` in your workspace:
 
@@ -118,7 +131,10 @@ Add to `.vscode/mcp.json` in your workspace:
 
 Or open the Command Palette (`Ctrl+Shift+P`) and run **MCP: Add Server**.
 
-### Windsurf
+</details>
+
+<details>
+<summary><strong>Windsurf</strong></summary>
 
 Add to `~/.codeium/windsurf/mcp_config.json`:
 
@@ -133,7 +149,10 @@ Add to `~/.codeium/windsurf/mcp_config.json`:
 }
 ```
 
-### Zed
+</details>
+
+<details>
+<summary><strong>Zed</strong></summary>
 
 Add to Zed settings (`settings.json`):
 
@@ -150,7 +169,10 @@ Add to Zed settings (`settings.json`):
 }
 ```
 
-### Any MCP Client (stdio)
+</details>
+
+<details>
+<summary><strong>Any MCP Client (stdio)</strong></summary>
 
 Solblade speaks MCP over stdio. Point any compatible client at:
 
@@ -158,8 +180,7 @@ Solblade speaks MCP over stdio. Point any compatible client at:
 bunx solblade mcp serve --allow "*"
 ```
 
-> **Tip:** Replace `"*"` with specific tool groups to restrict access:
-> `--allow "read"` for read-only, `--allow "read,scan,cleanup"` for read + rent reclaim.
+</details>
 
 ---
 
