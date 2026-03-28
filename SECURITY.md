@@ -10,7 +10,7 @@
 
 If you discover a security vulnerability in Solblade, **do not open a public issue**.
 
-Instead, please report it privately by emailing **shillshady@proton.me** with:
+Instead, please report it privately by emailing **nullxnothing@proton.me** with:
 
 - Description of the vulnerability
 - Steps to reproduce

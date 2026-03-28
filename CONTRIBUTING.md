@@ -5,7 +5,7 @@ Thanks for your interest in contributing.
 ## Getting Started
 
 ```bash
-git clone https://github.com/shillshady/solblade.git
+git clone https://github.com/nullxnothing/solblade.git
 cd solblade
 bun install
 bun run dev

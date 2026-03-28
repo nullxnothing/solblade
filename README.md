@@ -8,11 +8,11 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/shillshady/solblade/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/shillshady/solblade/ci.yml?style=flat-square&label=CI" alt="CI" /></a>
+  <a href="https://github.com/nullxnothing/solblade/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/nullxnothing/solblade/ci.yml?style=flat-square&label=CI" alt="CI" /></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/license-MIT-blue?style=flat-square" alt="license" /></a>
   <a href="https://bun.sh"><img src="https://img.shields.io/badge/runtime-Bun-f472b6?style=flat-square" alt="bun" /></a>
   <a href="https://modelcontextprotocol.io"><img src="https://img.shields.io/badge/protocol-MCP-7c3aed?style=flat-square" alt="MCP" /></a>
-  <a href="https://github.com/shillshady/solblade/stargazers"><img src="https://img.shields.io/github/stars/shillshady/solblade?style=flat-square&color=f5c542" alt="stars" /></a>
+  <a href="https://github.com/nullxnothing/solblade/stargazers"><img src="https://img.shields.io/github/stars/nullxnothing/solblade?style=flat-square&color=f5c542" alt="stars" /></a>
 </p>
 
 <p align="center">
@@ -317,7 +317,7 @@ See [`docs/MCP_ARCHITECTURE.md`](docs/MCP_ARCHITECTURE.md) for the full MCP serv
 ## Development
 
 ```bash
-git clone https://github.com/shillshady/solblade.git
+git clone https://github.com/nullxnothing/solblade.git
 cd solblade
 bun install
 bun run dev
