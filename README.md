@@ -26,6 +26,12 @@
 
 ---
 
+<p align="center">
+  <img src="demo.svg" alt="Solblade terminal demo" width="780" />
+</p>
+
+---
+
 Solblade is a Solana wallet that runs in your terminal and exposes a [Model Context Protocol](https://modelcontextprotocol.io) (MCP) server so AI agents can manage your wallets — with granular, per-wallet permission scoping you control.
 
 No browser extensions. No custodial APIs. Just a CLI with an encrypted local keystore and an MCP interface that gives AI exactly the access you choose: read-only portfolio views, spend-limited transfers, or full autonomy within guardrails.
