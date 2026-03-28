@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.solblade/
+*.db
+*.db-wal
+*.db-shm
+.session
+*.enc
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
