@@ -27,7 +27,7 @@
 ---
 
 <p align="center">
-  <img src="demo.svg" alt="Solblade terminal demo" width="780" />
+  <img src="demo.png" alt="Solblade terminal demo" width="780" />
 </p>
 
 ---
